@@ -15,3 +15,6 @@ It uses wxWidgets for the GUI and supports the following features:
 * Sort Runes A-Z or by rarity (sometimes by rarity is better, but sometimes you just want to know how to upgrade ITH in the cube and you know where it is alphabetically but you might not be able to find it quickly if the runes are sorted by rarity)
 
 * Rune word information (lists exact details of every runeword, if runeword has different effect for different item types these are listed too)
+---
+What are the .dll files? Are you trying to hack me bro?
+* I provided the source code so you can build it yourself. Visual Studio with wxWidget is a real pain, so I give you the option to use the binary with the .dll files I provided. You can also use the source code and compile it in Linux, it is way easier that way IMO!
