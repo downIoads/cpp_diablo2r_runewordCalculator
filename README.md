@@ -18,3 +18,5 @@ It uses wxWidgets for the GUI and supports the following features:
 ---
 What are the .dll files? Are you trying to hack me bro?
 * I provided the source code so you can build it yourself. Visual Studio with wxWidget is a real pain, so I give you the option to use the binary with the .dll files I provided. You can also use the source code and compile it in Linux, it is way easier that way IMO!
+---
+More information about this tool and upcoming / planned features are discussed in my blog post that you can find here: <todo>
