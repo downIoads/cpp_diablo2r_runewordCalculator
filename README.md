@@ -26,6 +26,6 @@ How do I build it on Linux?
 How do I build it on macOS (e.g. Ventura)?
 * Download from [here](https://www.wxwidgets.org/downloads/) under "Source Code" you choose "Source for Linux, macOS, etc"
 * Then extract it, move into the folder you downloaded and use "mkdir build-cocoa-debug && cd build-cocoa-debug && ../configure --enable-debug && make && make install"
-* Then in the d2r folder code you downloaded from here use: "g++ -std=c++17 *.cpp `wx-config --cxxflags --libs` -o d2rrunes"
+* Then in the d2r "code" folder you downloaded from here use: "g++ -std=c++17 *.cpp `wx-config --cxxflags --libs` -o d2rrunes"
 ---
 More information about this tool and upcoming / planned features are discussed in my [blog post](https://downioads.github.io/posts/d2-runewords/)
