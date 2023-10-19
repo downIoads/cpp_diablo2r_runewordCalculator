@@ -28,4 +28,4 @@ How do I build it on macOS (e.g. Ventura)?
 * Then extract it, move into the folder you downloaded and use "mkdir build-cocoa-debug && cd build-cocoa-debug && ../configure --enable-debug && make && make install"
 * Then in the d2r "code" folder you downloaded from here use: "g++ -std=c++17 *.cpp `wx-config --cxxflags --libs` -o d2rrunes"
 ---
-More information about this tool and upcoming / planned features are discussed in my [blog post](https://downioads.github.io/posts/d2-runewords/)
+More information about this tool and screenshots and upcoming / planned features are discussed in my [blog post](https://downioads.github.io/posts/d2-runewords/)
