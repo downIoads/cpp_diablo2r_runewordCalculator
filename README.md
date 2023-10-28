@@ -16,9 +16,6 @@ It uses wxWidgets for the GUI and supports the following features:
 
 * Rune word information (lists exact details of every runeword, if runeword has different effect for different item types these are listed too)
 ---
-Can I trust the .dll files?
-* Yes you can, but you don't have to. I provided the source code so you can build it yourself. Visual Studio with wxWidget is a real pain, so I give you the option to use the binary with the .dll files I provided.
-
 How do I build it on Linux?
 * sudo apt install libwxbase3.0-dev libwxgtk3.0-gtk3-0v5 libwxgtk3.0-gtk3-dev
 * g++ -std=c++17 *.cpp `wx-config --cxxflags --libs` -o d2rrunes
@@ -27,5 +24,8 @@ How do I build it on macOS (e.g. Ventura)?
 * Download from [here](https://www.wxwidgets.org/downloads/) under "Source Code" you choose "Source for Linux, macOS, etc"
 * Then extract it, move into the folder you downloaded and use "mkdir build-cocoa-debug && cd build-cocoa-debug && ../configure --enable-debug && make && make install"
 * Then in the d2r "code" folder you downloaded from here use: "g++ -std=c++17 *.cpp `wx-config --cxxflags --libs` -o d2rrunes"
+
+How do I build it on Windows?
+* Use Visual studio, there are some decent tutorials on YouTube. Much more difficult than building it for Linux or macOS IMO.
 ---
 More information about this tool and screenshots and upcoming / planned features are discussed in my [blog post](https://downioads.github.io/posts/d2-runewords/)
