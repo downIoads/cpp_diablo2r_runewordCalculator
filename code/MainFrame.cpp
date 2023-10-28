@@ -806,7 +806,7 @@ void MainFrame::OnExit(wxCommandEvent &event){
 
 
 void MainFrame::OnAbout(wxCommandEvent &event){
-    wxMessageBox("Hey, if you find any bugs or false information please add or message:\nscar10 on Discord.\n\nYou can say thanks by donating non-ladder runes or you can tell me\nwhich features you would like to see!\n\
+    wxMessageBox("Hey, if you find any bugs or false information please send me an E-Mail:\nf3lix.dev@gmx.de\n\nFeel free to tell me which features you would like to see!\n\
 \nProgram Version: 2.7",
                  "About", wxOK | wxICON_INFORMATION); // this line is the title of the info box that opens
 }
